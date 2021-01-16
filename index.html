@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="assets/homepage.css">
+	<meta charset="utf-8">
 	<title>
 		<p>Google home page</p>
 	</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/homepage.css">
+	
 </head>
 <body>
 
 
 		<header>
-			<nav class="navbar">
-				<a href="/" class="nav-links" >Apps</a>
-				<a href="/" class="nav-links" >Gmail</a>
-				<a href="/" class="nav-links" >You tube</a>
-				<a href="/" class="nav-links" >Maps</a>
-				<a href="/" class="nav-links" id="account-logo">logo of account</a>
+			<nav>
+				<div class="navbar">
+					<a href="/" class="nav-links" >
+						<img src="assets/photos/home.jpg" class="nav-links-icons" id="nav-apps-icon">
+						<span> Apps</span>
+					</a>
+					<a href="/" class="nav-links" >
+						<img src="assets/photos/gmail.png" class="nav-links-icons" id="nav-gmail-icon">
+						<span> Gmail</span>
+					</a>
+					<a href="/" class="nav-links" >
+						<img src="assets/photos/search.png" class="nav-links-icons" id="nav-youtube-icon">
+						<span> You tube</span>
+					</a>
+					<a href="/" class="nav-links" >
+						<img src="assets/photos/car.png" class="nav-links-icons"  id="nav-maps-icon">
+						<span> Maps</span>
+					</a>
+
+					<a href="/" class="nav-links" id="account-logo">	
+						<img src="assets/photos/logo.jpg" class="nav-links-icons"  id="nav-logo-icon">
+						<span>Account </span>
+					</a>
+				</div>
+			</nav>
 		</header>
 
 		<main>
-			<section id="logo">
-				<div>
-					<img src="assets/photos/google.png" alt="google logo">
-
+			<section id="search-bar"> 
+				<img src="assets/photos/google.png" id="logo" alt="google logo">
+			<form name="google" action="#" method="POST"><br>
+				<input type="search" class="search"><br>
+				<input type="submit" class="button" name="submit" value="Google Search">
+				<input type="submit" class="button" name="lucky" value="I'm Feeling Lucky">
+				</form>
+			</section>
+			
+			<section class="languages">
+				<div class="language-p">
+					<span class="language-p-item" id="google-offer">google offered in:</span>
+					<a class="language-p-item" href="#" id="language-1">English</a>
+					<a class="language-p-item" href="#" id="language-1">Persian</a>
+					 <a class="language-p-item" href="#" id="language-2">Pashto</a> 
 				</div>
 			</section>
 
-			<section > 
-				<div id="search-bar">
-				<img  src="assets/photos/search.png" id="search">
-				<input type="text" name="search" id="search-text">
-				<img src="assets/photos/smallvoice.png" id="voice">
-				</div>
-			</section>
-
-			<section id="recent">
-				<div class="recent-logo">
-					<img class="recent-icon" src="assets/photos/facebook.png">
-					<img class="recent-icon" src="assets/photos/home-icon.jpg">
-					<img class="recent-icon" src="assets/photos/gmail.png">
-					<img class="recent-icon" src="assets/photos/twitter.jpg">
-					<img class="recent-icon" src="assets/photos/coffe.png">
-					<img class="recent-icon" src="assets/photos/car.png">
-					<div>
-						name
-					</div>
-				</div>
-
-				
-			</section>
 		</main>
+		<footer>
+				<p>Afghanistan</p>
+				<p>advertising</p>
+				<p>business</p>
+				<p>about</p>
+				<p>how Search works</p>
+				<p>privacy</p>
+				<p>Terms</p>
+				<p>setting</p>
+			</footer>
 </body>
 </html>
