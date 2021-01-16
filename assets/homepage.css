@@ -2,7 +2,7 @@ body{
 	background-color: white;
 }
 main{
-	margin: 0 auto;
+	margin: 0px;
 	width: 100%;
 }
 
@@ -99,3 +99,35 @@ main{
 	height: 5px;
 	text-decoration: none;
 }
+
+#footer-div1{
+	display: block;
+	background-color: #f4f4f4;
+	margin: 70px 0px -1px 0px;
+	padding: 4px 0px 4px 5px;
+	border: 1px solid #e2e2e2;
+}
+
+#footer-div2{
+	display: inline-flex;
+	flex-direction: row;
+	align-items: left;
+	justify-content: flex-start;
+	column-gap: 35px;
+	margin: 2px -5px 0px 0px; 
+	padding: 0px 12px 0px 10px;
+	background-color: #f4f4f4;
+}
+
+#footer-div3{
+	display: inline-flex;
+	padding: 0px 17px 0px 880px;
+	flex-direction: row;
+	align-items: right;
+	justify-content: flex-end;
+	column-gap: 35px;
+	background-color: #f4f4f4;
+	
+}
+
+
